@@ -127,7 +127,7 @@ ADDONS = {
 }
 
 # consts for check-acr command
-CONST_CANIPULL_IMAGE = "fseldow/test"
+CONST_CANIPULL_IMAGE = "fseldow/canipull:test13"
 CONST_ACR_DOMAIN_NAME = ".azurecr.io"
 
 
