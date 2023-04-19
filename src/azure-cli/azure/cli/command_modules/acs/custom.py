@@ -1342,7 +1342,7 @@ def aks_check_acr(cmd, client, resource_group_name, name, acr, node_name=None):
     fd, browse_path = tempfile.mkstemp()
     try:
         aks_get_credentials(
-            cmd, client, resource_group_name, name, admin=False, path=browse_path
+            cmd, client, resource_group_name, name, admin=True, path=browse_path
         )
 
         # Get kubectl minor version
